@@ -1,0 +1,175 @@
+.content-wrap {
+    background-color: $color-bg-destination;
+    padding-top: 65px;
+
+    .top-box {
+        width: 68%;
+        margin: 0 auto;
+        .destination {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 65px;
+            h2 {
+                font-size: 67px;
+                color: $color-title-secondary;
+                font-weight: 600;
+                .color  {
+                    color: $color-title-primary;
+                }
+            }
+            p {
+                display: flex;
+                align-items: center;
+                color: #c1c1c1;
+                img {
+                    padding-right: 7px;
+                }
+            }
+        }
+        .destination-text {
+            width: 68%;
+            padding-bottom: 60px;
+
+            p {
+                color: #777777;
+                line-height: 35px;
+            }
+        }
+        .search-form {
+            float: left;
+            padding-bottom: 20px;
+            .search {
+                border: 1px solid #e8e8e8;
+                border-radius: 20px;
+                padding: 10px;
+                color: #c1c1c1;
+                font-style: italic;
+            }
+        }
+        .places {
+            text-align: right;
+            .places-a {
+                color: #777777;
+                font-size: 16px;
+                text-decoration: none;
+                font-weight: 600;
+            }
+            .slash {
+                color: #777777;
+                font-size: 16px;
+                font-weight: 600;
+            }
+            .a-places {
+                color: #c0c3c3;
+                font-size: 16px;
+                text-decoration: none;
+            }
+        }
+
+    }
+    .gallery-wrap {
+        width: 82%;
+        margin: 0 auto;
+        padding-bottom: 75px;
+        .gallery-one-box {
+            position: relative;
+            .gallery-first-p {
+                position: absolute;
+                bottom: 20px;
+                right: 505px;
+                color: white;
+            }
+            .batu-forward {
+                position: absolute;
+                bottom: 21px;
+                right: 483px;
+            }
+            .batu-ico {
+                position: absolute;
+                top: 90px;
+                right: 340px;
+            }
+            .title-batu {
+                position: absolute;
+                top: 225px;
+                right: 362px;
+                font-size: 30px;
+                color: #11a8ac;
+            }
+            .text-batu {
+                position: absolute;
+                top: 275px;
+                right: 55px;
+                width: 31%;
+                line-height: 35px;
+                color: #777777;
+                font-weight: bold;
+            }
+        }
+        .two-and-three-box {
+            padding-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            .gallery-two-box {
+                position: relative;
+                .gallery-two-p {
+                    position: absolute;
+                    bottom: 20px;
+                    right: 45px;
+                    color: white;
+                }
+                .bromo-forward {
+                    position: absolute;
+                    right: 23px;
+                    bottom: 21px;
+                }
+                .title-bromo {
+                    position: absolute;
+                    top: 117px;
+                    left: 29px;
+                    font-size: 30px;
+                }
+                .text-bromo {
+                    position: absolute;
+                    top: 165px;
+                    left: 29px;
+                    line-height: 35px;
+                    width: 40%;
+                    color: #777777;
+                    .mount-bromo {
+                        font-weight: 600;
+                    }
+                }
+            }
+            .gallery-three-box {
+                position: relative;
+                .gallery-three-p {
+                    position: absolute;
+                    bottom: 20px;
+                    right: 50px;
+                    color: white;
+                }
+                .biru-forward {
+                    position: absolute;
+                    bottom: 21px;
+                    right: 23px;
+                }
+            }
+        }
+    }
+    .bottom-box {
+        text-align: center;
+        padding-bottom: 85px;
+        a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: #777777;
+            font-weight: 600;
+            font-size: 17px;
+        }
+        .bottom-box-first-a {
+            font-size: 22px;
+            color: #01a2a6; 
+        }
+    }
+}

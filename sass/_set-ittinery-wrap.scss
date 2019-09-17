@@ -1,0 +1,310 @@
+.set-ittinery-wrap {
+    width: 82%;
+    margin: 0 auto;
+    padding-top: 70px;
+    .top-box {
+        text-align: center;
+        padding-bottom: 70px;
+        h2 {
+            font-size: 67px;
+            color: $color-title-secondary;
+            font-weight: 600;
+            padding-bottom: 55px;
+            .color {
+                color: $color-title-primary;
+            }
+        }
+        p {
+            color: $color-text;
+            width: 62%;
+            margin: 0 auto;
+            line-height: 35px;
+        }
+    }
+    .ittinery-left-right-box {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 70px;
+        .ittinery-left-box {
+            width: 56%;
+            .left-top-box {
+                text-align: center;
+                padding: 25px 0;
+                background-image: url('../img/set-ittinery.png');
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                p {
+                    font-weight: 600;
+                    font-size: 18px;
+                    color: white;
+                }
+            }
+            .left-main-box {
+                background-color: #ffffa6;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+                height: 635px;
+                .day-one {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 20px 37px 15px;
+                    color: $color-title-secondary;
+                    font-weight: 600;
+                    .day-data {
+                        display: flex;
+                        align-items: center;
+                        .day-data-img {
+                            width: 9px;
+                            height: 8px;
+                            padding-left: 5px;
+                        }
+                    }
+                }
+                .mt-bromo-box {
+                    border: 1px solid wheat;
+                    border-radius: 7px;
+                    width: 84%;
+                    margin: 0 auto;
+                    background-color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 19px 25px 18px 15px;
+                    .bromo-left-part {
+                        display: flex;
+                        align-items: center;
+                        p {
+                            padding-left: 25px;
+                            font-size: 24px;
+                        }
+                    }
+                    .bromo-right-part {
+                        color: #bcbcbc;
+                    }
+                }
+                .add-sub {
+                    background-color: #f5e99e;
+                    width: 30%;
+                    height: 40px;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                    float: right;
+                    margin-right: 42px;
+                    border-bottom-left-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    margin-bottom: 10px;
+                    p {
+                        width: 90%;
+                        height: 100%;
+                        display: flex;
+                        align-items: center;
+                        color: #e0d386;
+                        justify-content: center;
+                    }
+                }
+                .plus {
+                    width: 20px;
+                    height: 20px;
+                    background-color: #d8cb7d;
+                    border-radius: 10px;
+                    margin: 0 auto;
+                    display: flex;
+                    justify-content: center;
+                    color: #ffffa6;
+                }
+                .batu-city-box {
+                    border: 1px solid wheat;
+                    border-radius: 7px;
+                    width: 84%;
+                    margin: 0 auto;
+                    background-color: white;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding: 10px 25px 10px 15px;
+                    .batu-left-part {
+                        display: flex;
+                        align-items: center;
+                        p {
+                            padding-left: 40px;
+                            font-size: 24px;
+                        }
+                    }
+                    .batu-right-part {
+                        color: #bcbcbc;
+                    }
+                }
+                .malang-music {
+                    width: 86%;
+                    margin-left: 50px;
+                    background-color: #f5e99e;
+                    padding-top: 15px;
+                    border-bottom-left-radius: 5px;
+                    padding-bottom: 15px;
+                    p {
+                        padding-left: 25px;
+                        color: #aea25c;
+                        padding-bottom: 5px;
+                    }
+                    hr {
+                        width: 94%;
+                        height: 1px;
+                        border: 0;
+                        background-color: #dbce80;
+                        margin-bottom: 10px;
+                    }
+                }
+                .day-two {
+                    clear: both;
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 30px 37px 15px;
+                    color: $color-title-secondary;
+                    font-weight: 600;
+                    .day-data {
+                        display: flex;
+                        align-items: center;
+                        .day-data-img {
+                            width: 9px;
+                            height: 8px;
+                            padding-left: 5px;
+                        }
+                    }
+                }
+                .drag-box {
+                    padding-top: 25px;
+                    border: 4px dashed;
+                    width: 90%;
+                    border-color: #e8e897;
+                    margin: 0 auto;
+                    background-color: #fbf6a3;
+                    p {
+                        color: #e0d386;
+                        text-align: center;
+                        padding-bottom: 25px;
+                    }
+                }
+            }
+        }
+        .ittinery-right-box {
+            width: 40%;
+            margin: 0 auto;
+            .right-top-box {
+                color: $color-title-secondary;
+                font-size: 18px;
+                font-weight: 600;
+                text-align: center;
+                padding-bottom: 30px;
+                padding-top: 20px;
+                hr {
+                    width: 14%;
+                        height: 2px;
+                        border: 0;
+                        background-color: $color-title-secondary;
+                }
+            }
+            .sort-box {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 15px;
+                p {
+                    color: #29d9c2;
+                    font-weight: 600;
+                    span {
+                        font-weight: normal;
+                        color: #bcbcbc;
+                    }
+                }
+            }
+            .right-bromo-box {
+                display: flex;
+                justify-content: space-between;
+                border: 1px solid #bcbcbc;
+                border-radius: 10px;
+                padding: 10px 15px;
+                margin-bottom: 15px;
+            }
+            .location-name {
+                font-size: 24px;
+                padding-bottom: 15px;
+            }
+            .estimated-time {
+                font-size: 14px;
+                color: #bcbcbc;
+            }
+            .hours {
+                color: #29d9c2;
+            }
+            .number {
+                font-weight: 600;
+            }
+            .small-mountain-ico {
+                padding-left: 20px;
+            }
+            .view-details {
+                display: block;
+                text-decoration: none;
+                color: #29d9c2;
+                font-weight: 600;
+                font-size: 14px;
+                padding-left: 10px;
+            }
+            .right-panderman-box {
+                display: flex;
+                justify-content: space-between;
+                border: 1px solid #bcbcbc;
+                border-radius: 10px;
+                padding: 10px 15px;
+                margin-bottom: 15px;
+            }
+            .right-semeru-box {
+                display: flex;
+                justify-content: space-between;
+                border: 1px solid #bcbcbc;
+                border-radius: 10px;
+                padding: 10px 15px;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    .bottom-box {
+        padding-top: 15px;
+        text-align: center;
+        padding-bottom: 50px;
+        .button-save {
+            background-color: #c3f37f;
+            width: 14%;
+            height: 60px;
+            border-radius: 30px;
+            border: none;
+            margin-right: 25px;
+            img {
+                float: left;
+                padding-left: 10px;
+            }
+            p {
+                color: white;
+                padding-top: 3px;
+                font-weight: 600;
+            }
+        }
+        .button-print {
+            background-color: #29d9c2;
+            width: 11%;
+            height: 60px;
+            border-radius: 30px;
+            border: none;
+            margin-right: 180px;
+            img {
+                float: left;
+                padding-left: 15px;
+            }
+            p {
+                color: white;
+                padding-top: 3px;
+                font-weight: 600;
+            }
+        }
+    }
+}

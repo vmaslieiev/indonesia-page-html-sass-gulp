@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Bitter');
+body {
+    font-family: $font-primary;
+    header {
+        .head {
+            p {
+                font-family: $font-company;
+            }
+        }
+        h1 {
+            font-family: $font-secondary;
+        }
+    }
+    h2 {
+        font-family: $font-secondary;
+    }
+}
